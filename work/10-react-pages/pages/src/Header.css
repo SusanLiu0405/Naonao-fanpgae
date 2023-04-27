@@ -1,0 +1,25 @@
+.header {
+    display: grid;
+    grid-template-areas:
+        "header__logo header__title"
+        "header__nav header__nav";
+    grid-template-columns: auto 1fr;
+    /* background-color: var(--bg-banner-color); */
+}
+
+.header__logo {
+    grid-area: header__logo;
+}
+
+.header__title {
+    background-color: var(--bg-banner-color);
+    margin: 0;
+    grid-area: header__title;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.header__nav {
+    grid-area: header__nav;
+    align-self: flex-end;
+}

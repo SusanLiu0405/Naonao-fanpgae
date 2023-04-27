@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/public_styles.css" />
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <h1 class="header">Ah I think Brett must love cats!</h1>
+        <form class="alpha" action="submit" method="POST">
+            <div class="inputset">
+                <label for="name"><span>Name: </span></label>
+                <input id="name" type="text" name="name" required />
+            </div>
+            <div class="inputset">
+                <label for="email"><span>Email: </span></label>
+                <input id="email" type="text" name="email" required pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+                    title="EmailRequired" />
+            </div>
+            <div class="annoy">
+                <label for="annoy_me"><span>Do you want us to send you annoying emails? <input id="annoy_me"
+                            type="checkbox" name="annoy_me" checked /></span></label>
+
+            </div>
+            <div class="tier">
+                <label for="tier"></label>
+                <select id="tier" name="tier" required>
+                    <option value="">(Please select one)</option>
+                    <option value="1">Silver Tier</option>
+                    <option value="2">Gold Tier</option>
+                    <option value="3">Platinum Tier</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        We really don't care about your privacy, see our <a href="privacy.html">Privacy Policy</a>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: papayawhip;
+  --bg-banner-color: burlywood;
+  height: 100%;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: var(--bg-color);
+  font-family: sans-serif;
+}
+
+#root {
+  height: 100%
+}

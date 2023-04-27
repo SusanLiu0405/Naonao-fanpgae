@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+#root {
+    --kon: #0F2540;
+    --tetsukon:#261E47;
+    --rurikon: #0B346E;
+    --kachi: #08192D;
+    --momo: #F596AA;
+    --gofun: #FFFFFB;
+    --shironeri: #FCFAF2;
+    --shironezumi: #BDC0BA;
+    --aotake:#00896C;
+    --chitosemidori:#36563C;
+    height: 100%;
+}
+
+:root {
+    height: 100%;
+}

@@ -1,0 +1,38 @@
+.header2 {
+    color:var(--kon);
+}
+
+.header3 {
+    color: var(--aotake);
+}
+
+.subscribe-panel {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+.subscribe-card {
+	display: grid;
+	grid-column: span 12;
+}
+
+.card-img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.subscribe-btn {
+	margin-left: auto;
+	margin-right: auto;
+    border: none;
+    background-color: var(--kon);
+    color: var(--gofun);
+    height: 1.5rem;
+    width: 6rem;
+}
+
+@media (min-width: 44rem) {
+	.subscribe-card {
+        grid-column: span 6;
+	}
+}

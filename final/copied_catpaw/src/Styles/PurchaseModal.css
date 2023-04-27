@@ -1,0 +1,116 @@
+/* Modal Dialog Config Below */
+
+.modal {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal::before {
+	content: "";
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1;
+}
+
+.modal-content {
+	position: fixed;
+	top: 15%;
+	right: 13%;
+	z-index: 999;
+	border: none;
+	background-color: white;
+	margin: 0;
+	padding: 2rem;
+	border-radius: 0.5rem;
+
+    height: auto;
+    width: 30rem;
+}
+
+.close-btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+    border:none;
+    background-color: var(--kon);
+    color:var(--gofun); 
+}
+
+
+/* Form Below*/
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-grids {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-row-gap: 1rem;
+}
+
+.form-grid {
+    display: grid;
+    grid-column: span 12;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.form-label {
+    grid-column: span 12;
+    font-weight: bold;
+    text-align: start;
+}
+
+.error {
+    grid-column: span 12;
+    text-align: start;
+    color: red;
+}
+
+.checkbox-grid {
+    grid-column: span 12;
+    display: flex;
+}
+
+.form-input {
+    grid-column: span 12;
+    width: auto;
+}
+
+.submit {
+    display: flex;
+    justify-content: space-around;
+}
+
+.submit-btn {
+    place-items: center;
+    border:none;
+    background-color: var(--kon);
+    color:var(--gofun); 
+    font-size: 1rem;
+}
+
+@media (max-width: 44rem) {
+
+    .modal-content {
+        position: fixed;
+        top: 15%;
+        
+        z-index: 999;
+        border: none;
+        background-color: white;
+        margin: 0;
+        padding: 2rem;
+        border-radius: 0.5rem;
+
+        height: auto;
+        width: 15rem;
+    }
+
+}

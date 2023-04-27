@@ -1,0 +1,33 @@
+.square {
+    border: 1px solid var(--kon);
+    color:white;
+    font-weight: bold;
+    background-color: #787D7B;
+    height: 2rem;
+    vertical-align: middle;
+    width: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.board-row{
+    text-align: center;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+    height: 2rem;
+}
+
+
+
+.move-button {
+    border: none;
+    border-radius: 0%;
+    background-color: var(--momo);
+    color:var#1C1C1C;
+}
+
+.game-info {
+    display: grid;
+}
+

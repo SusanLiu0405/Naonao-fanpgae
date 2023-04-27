@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles4.css">
+    <script defer src="form.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="header__form">This is a header</h1>
+    </header>
+
+    <form class="register" action="/register" method="POST">
+        <h2 class="header__register">Register</h2>
+        <div class="form-pair register__username">
+            <label for="username">Name: (Required)</label>
+            <input name="username" class="register-username__input" id="username" type="text">
+            <span class="register-username__error">
+                This field is required
+            </span>
+        </div>
+
+        <div class="form-pair register__email">
+            <label for="email">Email: (Required)</label>
+            <input name="email" class="register-email__input" id="email" type="text">
+            <span class="register-email__error"></span>
+        </div>
+
+        <div class="form-pair register__confirm">
+            <label for="confirm">Confirm Email: (Required)</label>
+            <input name="confirm" class="register-confirm__input" id="confirm" type="text">
+            <span class="register-confirm__error"></span>
+        </div>
+
+        <div class="form-pair register__spam">
+            <label for="spam">Want Spam?</label>
+            <input name="spam" class="register-spam__input" id="spam" type="checkbox">
+
+        </div>
+
+        <div class="form-pair register__tier">
+            <label for="tier">Tier: </label>
+            <select name="tier" title="title_of_tier" class="register-tier__input">
+                <option value="">(Please select one)</option>
+                <option value="1">Silver Tier</option>
+                <option value="2">Gold Tier</option>
+                <option value="3">Platinum Tier</option>
+            </select>
+            <span class="register-tier__error">
+                Please select here
+            </span>
+        </div>
+
+        <div class="form-pair submit__button">
+            <button type="submit" class="register__submit">Register</button>
+        </div>
+
+    </form>
+
+    <footer>
+        <div class="footer__form">This is a footer.</div>
+    </footer>
+</body>
+
+</html>

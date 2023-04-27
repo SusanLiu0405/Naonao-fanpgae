@@ -1,0 +1,14 @@
+.accordion-section__title {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.accordion-section__title::after {
+    content: "+";
+}
+
+.accordion-section__title--open::after {
+    content:"-";
+}

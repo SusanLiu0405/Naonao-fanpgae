@@ -1,0 +1,25 @@
+.card {
+    grid-column: span 12;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    padding: 0.5rem;
+    background-color: #eee;
+    justify-content: space-around;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+
+.card img {
+    height: auto;
+    width: 30%;
+}
+
+@media(min-width: 44rem) {
+    .card {
+        grid-column: span 4;
+    }
+}

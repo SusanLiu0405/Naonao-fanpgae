@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+#homepage {
+    display: grid;
+    background-color: white;
+    margin: 0;
+    grid-template-areas:
+        "header header"
+        "local-menu main"
+        "footer footer"
+    ;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 20% 80%;
+}
+
+.menubar {
+    background-color: plum;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu li {
+    padding: 1rem;
+}
+
+.menu li:hover {
+    background-color: rebeccapurple;
+}
+
+.menu li:hover a {
+    color: white;
+}
+
+
+main {
+    background-color: pink;
+    margin: 0;
+    grid-area: main;
+}
+
+main p {
+    margin: 1rem;
+}
+
+header {
+    grid-area: header;
+    margin: 0;
+    padding: 0;
+    background-color: plum;
+}
+
+footer {
+    grid-area: footer;
+    margin: 0;
+    padding: 1rem;
+    background-color: plum;
+}
+
+.local-menu {
+    grid-area: local-menu;
+    border-right: 1px solid black;
+    background-color: #f4c2cb;
+}
+
+.local-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.local-menu ul li {
+    padding: 1rem;
+    margin-right: 0;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.local-menu ul li:hover {
+    background-color: plum;
+}

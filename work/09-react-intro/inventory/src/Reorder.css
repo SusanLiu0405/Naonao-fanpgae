@@ -1,0 +1,19 @@
+/* fadeIn animation from
+https://blog.hubspot.com/website/css-fade-in#:~:text=In%20the%20CSS%2C%20use%20the,creates%20the%20fade%2Din%20effect. */
+
+.button-reorder {
+    animation: fadeIn 1s;
+    width: 4rem;
+    height: 1.5rem;
+    margin: 1rem;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

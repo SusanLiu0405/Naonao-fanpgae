@@ -1,0 +1,17 @@
+.app {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.button-add {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 1rem;
+}
+
+.button-reduce {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 1rem;
+}

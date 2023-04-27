@@ -1,0 +1,160 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --bg--color: papayawhip;
+    --header-bg-color: burlywood;
+
+}
+
+body,
+html {
+    height: 100%;
+    background-color: var(--bg--color);
+    font-family: sans-serif;
+    align-items: center;
+}
+
+
+.header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background-color: var(--header-bg-color);
+}
+
+.header_logo {
+    align-self: flex-start;
+    aspect-ratio: 1/1;
+    width: 50px;
+    height: 50px;
+}
+
+.header__title {
+    align-self: center;
+}
+
+.menu {
+    grid-area: nav;
+    padding: 2rem;
+    align-items: center;
+    border: 0;
+    margin: 0;
+
+}
+
+
+
+.menu__list {
+    display: grid;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    line-height: 1.6;
+    list-style: none;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.menu__list li {
+    grid-column: span 12;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    grid-area: main;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+}
+
+.card {
+    grid-column: span 12;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 0.5rem;
+    background-color: #C0FFEE;
+}
+
+.card__link {
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    color: white;
+    text-decoration: none;
+}
+
+.card__link:hover {
+    box-shadow: 0 0 5px 5px darkgray;
+}
+
+.footer {
+    grid-area: footer;
+    display: grid;
+    gap: 1rem;
+    background-color: var(--header-bg-color);
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.footer li {
+    grid-column: span 12;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+}
+
+.footer__item {
+    margin: 0.5rem;
+    text-align: center;
+    font-size: small;
+    list-style: none;
+}
+
+
+@media (min-width: 50rem) {
+    body {
+        display: grid;
+        grid-template-areas:
+            "header header"
+            "nav nav"
+            "main main"
+            "footer footer";
+        grid-template-rows: auto auto 1fr auto;
+        grid-template-columns: auto 1fr;
+    }
+
+    .header__logo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .menu__list {
+        flex-direction: column;
+    }
+
+    .menu__list li {
+        grid-column: span 4;
+    }
+
+    .card {
+        grid-column: span 4;
+    }
+
+    .footer li {
+        grid-column: span 4;
+        font-size: small;
+    }
+
+}
