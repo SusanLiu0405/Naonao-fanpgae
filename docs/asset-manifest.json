@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/naonao-fanpage/static/css/main.01ced88e.css",
+    "main.js": "/naonao-fanpage/static/js/main.5e9efc2d.js",
+    "static/js/787.d35c1ca3.chunk.js": "/naonao-fanpage/static/js/787.d35c1ca3.chunk.js",
+    "static/media/IMG_4336.png": "/naonao-fanpage/static/media/IMG_4336.f5e5071438952314d876.png",
+    "static/media/IMG_4332.png": "/naonao-fanpage/static/media/IMG_4332.5b910620f6410e4738fc.png",
+    "static/media/IMG_4335.png": "/naonao-fanpage/static/media/IMG_4335.2903c2fb2c53d0625070.png",
+    "static/media/IMG_4338.png": "/naonao-fanpage/static/media/IMG_4338.142acf97e15904c9ba38.png",
+    "static/media/IMG_4337.png": "/naonao-fanpage/static/media/IMG_4337.e37c2813fcf9f82f7ef9.png",
+    "static/media/IMG_4333.png": "/naonao-fanpage/static/media/IMG_4333.113aa4f54df5177bed35.png",
+    "static/media/Carousel6.jpg": "/naonao-fanpage/static/media/Carousel6.afcd119062f14435490f.jpg",
+    "static/media/Carousel5.jpg": "/naonao-fanpage/static/media/Carousel5.a069c7b789fd803d280a.jpg",
+    "static/media/Carousel4.jpg": "/naonao-fanpage/static/media/Carousel4.26494d50d5aa795b138c.jpg",
+    "static/media/Carousel3.jpg": "/naonao-fanpage/static/media/Carousel3.27fcf09931c70bc3989d.jpg",
+    "static/media/Carousel2.jpg": "/naonao-fanpage/static/media/Carousel2.603d6f402e4d3a58ce2a.jpg",
+    "static/media/Carousel1.jpg": "/naonao-fanpage/static/media/Carousel1.82cae6b16c1c5b513d39.jpg",
+    "static/media/catmountain.png": "/naonao-fanpage/static/media/catmountain.7369f5ddc293dcaca2e9.png",
+    "static/media/wink.png": "/naonao-fanpage/static/media/wink.6498f01bf752a644166e.png",
+    "static/media/tongue.png": "/naonao-fanpage/static/media/tongue.a0602f2c18dc1fe57aef.png",
+    "static/media/initial.png": "/naonao-fanpage/static/media/initial.092dea6f2993acf68da7.png",
+    "index.html": "/naonao-fanpage/index.html",
+    "main.01ced88e.css.map": "/naonao-fanpage/static/css/main.01ced88e.css.map",
+    "main.5e9efc2d.js.map": "/naonao-fanpage/static/js/main.5e9efc2d.js.map",
+    "787.d35c1ca3.chunk.js.map": "/naonao-fanpage/static/js/787.d35c1ca3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01ced88e.css",
+    "static/js/main.5e9efc2d.js"
+  ]
+}
